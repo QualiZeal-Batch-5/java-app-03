@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.qualizeal.AppTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 0.101 s <<< FAILURE! -- in com.qualizeal.AppTest
+com.qualizeal.AppTest.test2 -- Time elapsed: 0.008 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: The method name or syntax does not match with the guideline. ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at com.qualizeal.AppTest.test2(AppTest.java:70)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
