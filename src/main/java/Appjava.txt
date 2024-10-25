@@ -1,0 +1,11 @@
+
+
+import com.qualizeal.javaapp03.operation.TwoNonDecimalNumbersSubtraction;
+
+public class App {
+    public static void main(String[] args) {
+        TwoNonDecimalNumbersSum twoNonDecimalNumbersSum = new TwoNonDecimalNumbersSum();
+        
+        twoNonDecimalNumbersSum.add(10, 2); 
+    }
+}
